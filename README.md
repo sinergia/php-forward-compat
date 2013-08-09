@@ -2,6 +2,8 @@ php-forward-compat
 ==================
 
 [![Build Status](https://travis-ci.org/sinergia/php-forward-compat.png?branch=master)](https://travis-ci.org/sinergia/php-forward-compat)
+[![Latest Stable Version](https://poser.pugx.org/sinergia/php-forward-compat/v/stable.png)](https://packagist.org/packages/sinergia/php-forward-compat)
+[![Total Downloads](https://poser.pugx.org/sinergia/php-forward-compat/downloads.png)](https://packagist.org/packages/sinergia/php-forward-compat)
 
 Improve PHP 5.3+ with features from PHP 5.4, 5.5 and beyond.
 
