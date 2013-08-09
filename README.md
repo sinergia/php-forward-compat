@@ -9,7 +9,7 @@ Complementary package: [https://github.com/ircmaxell/password_compat]()
 
 ###USAGE
 
-
+Just add **"sinergia/php-forward-compat":"dev-master"** to **composer.json**
 
 ###PHP 5.4
 
