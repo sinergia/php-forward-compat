@@ -7,7 +7,10 @@ php-forward-compat
 
 Improve PHP 5.3+ with features from PHP 5.4, 5.5 and beyond.
 
-Complementary package: [https://github.com/ircmaxell/password_compat]()
+Complementary packages:
+
+- [https://github.com/ircmaxell/password_compat]()
+- [https://github.com/ramsey/array_column]()
 
 ###USAGE
 
@@ -33,6 +36,8 @@ $_SERVER['[**REQUEST_TIME_FLOAT**](http://www.php.net/manual/en/reserved.variabl
 ###PHP 5.5
 
 @TODO
+
+http://benramsey.com/blog/2013/03/introducing-array-column-in-php-5-dot-5/
 
 - [functions](http://www.php.net/manual/pt_BR/migration55.new-functions.php)
 - [classes](http://www.php.net/manual/pt_BR/migration55.classes.php)

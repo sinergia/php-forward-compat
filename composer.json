@@ -17,5 +17,9 @@
 	},
 	"require": {
 		"php": ">=5.3.7"
-	}
+	},
+	"suggest": {
+        "ircmaxell/password-compat": "PHP 5.5 password_* functions",
+        "rhumsaa/array_column": "PHP 5.5 array_column function"
+    }
 }
