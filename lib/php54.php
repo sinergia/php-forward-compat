@@ -11,14 +11,12 @@ defined('JSON_UNESCAPED_SLASHES') || define('JSON_UNESCAPED_SLASHES', 0);
 defined('JSON_UNESCAPED_UNICODE') || define('JSON_UNESCAPED_UNICODE', 0);
 
 // http://php.net/http_response_code
-if ( ! function_exists('http_response_code') )
-{
+if ( ! function_exists('http_response_code') ) {
     function http_response_code($newcode = NULL)
     {
         static $code = 200;
 
-        if($newcode !== NULL)
-        {
+        if ($newcode !== NULL) {
             header("X-PHP-Response-Code: $newcode", true, $newcode);
             if( ! headers_sent() )
                 $code = $newcode;
